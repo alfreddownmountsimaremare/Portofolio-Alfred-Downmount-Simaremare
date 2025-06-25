@@ -1,0 +1,95 @@
+
+import React from "react";
+
+export default function Portfolio() {
+  return (
+    <div className="font-sans bg-white text-gray-900">
+
+      {/* Hero Section */}
+      <section className="text-center py-20 bg-gradient-to-b from-blue-600 to-blue-400 text-white">
+        <h1 className="text-4xl font-bold mb-2">Alfred Downmount Simaremare</h1>
+        <p className="text-lg">Mahasiswa Matematika ITERA | Data Enthusiast | Public Speaker</p>
+      </section>
+
+      {/* About Section */}
+      <section className="max-w-3xl mx-auto px-4 py-12">
+        <h2 className="text-2xl font-semibold mb-4">Tentang Saya</h2>
+        <p className="leading-relaxed">
+          Saya adalah mahasiswa Matematika di ITERA yang memiliki ketertarikan pada bidang analisis data,
+          komunikasi publik, dan pengembangan diri. Berpengalaman dalam kegiatan organisasi dan kepanitiaan, serta terbiasa bekerja dalam tim maupun individu.
+        </p>
+      </section>
+
+      {/* Experience Section */}
+      <section className="bg-gray-100 py-12">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold mb-6">Pengalaman Organisasi & Kegiatan</h2>
+          <div className="border-l-2 border-blue-500 pl-4 space-y-6">
+            <div>
+              <h4 className="font-bold">Disciplinary Commission Staff – EFROMATIKA</h4>
+              <span className="text-sm text-gray-600">Jan 2024 – Sekarang</span>
+              <ul className="list-disc ml-5 text-sm">
+                <li>Mengawasi dan menegakkan aturan organisasi</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold">Staff Sub-Departemen Mutu Anggota – HIMATIKA ITERA</h4>
+              <span className="text-sm text-gray-600">Feb 2024 – Sekarang</span>
+            </div>
+            <div>
+              <h4 className="font-bold">MC & Ketua Pelaksana – English Training HIMATIKA ITERA</h4>
+              <span className="text-sm text-gray-600">Mar 2024 – Apr 2024</span>
+            </div>
+            <div>
+              <h4 className="font-bold">Mentor – PPLK ITERA 2024</h4>
+              <span className="text-sm text-gray-600">May 2024 – Aug 2024</span>
+            </div>
+            {/* Tambahkan pengalaman lainnya */}
+          </div>
+        </div>
+      </section>
+
+      {/* Project Section */}
+      <section className="py-12">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold mb-6">Proyek Unggulan</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-4 shadow-lg rounded-lg border">
+              <h3 className="font-semibold">Prediksi Harga Tanah (KNN)</h3>
+              <p className="text-sm">Model prediksi harga tanah sekitar kampus ITERA berbasis spasial menggunakan algoritma K-Nearest Neighbors.</p>
+            </div>
+            <div className="p-4 shadow-lg rounded-lg border">
+              <h3 className="font-semibold">Analisis Inflasi dengan Deret Waktu</h3>
+              <p className="text-sm">Menggunakan metode ARIMA untuk melihat pola dan memprediksi tingkat inflasi di Indonesia.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sertifikat */}
+      <section className="bg-gray-100 py-12">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold mb-6">Sertifikat</h2>
+          <ul className="list-disc ml-5 space-y-2 text-sm">
+            <li>BNSP – Agribisnis Komoditas & Teknologi Digital (2024)</li>
+            <li>Soft Skill & Leadership Training (2025)</li>
+            <li>Tutor Matematika Dasar IA – Public Speaking & Teaching (2023)</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Kontak */}
+      <section className="py-12 text-center">
+        <h2 className="text-2xl font-semibold mb-2">Hubungi Saya</h2>
+        <div className="space-x-4 text-blue-600">
+          <a href="https://linkedin.com/in/alfred-downmount-simaremare-66293087">LinkedIn</a>
+          <a href="mailto:alfred.122160058@student.itera.ac.id">Email</a>
+        </div>
+      </section>
+
+      <footer className="text-center py-6 text-sm text-gray-500">
+        &copy; 2025 Alfred Downmount Simaremare. All rights reserved.
+      </footer>
+    </div>
+  );
+}
